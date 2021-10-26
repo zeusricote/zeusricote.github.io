@@ -1,0 +1,25 @@
+.top-line
+.wrapper
+	.options.onMobile
+		button.btn(data-action='draftsActive') Drafts
+		button.btn(data-action='postsActive') Posts
+	.left-pane
+		.main-title 
+			.text Potion
+				.busy.hidden
+			.subtext Editor for Jekyll blogs
+	.center-pane
+		.clearfix
+			h4.f-left Drafts
+			div.newpostholder
+				input#newPostTitle(placeholder="New post title")
+				button.btn.f-right#newPostBtn New Post
+		ul.block.drafts-list
+			each file in drafts
+				li.file
+					a(href="#", data-draft="true", data-path="#{file.path}") #{file.name}
+	.right-pane
+		ul.published-list
+			each file in posts
+				li.file
+					a(href="#", data-path="#{file.path}") #{file.name}
