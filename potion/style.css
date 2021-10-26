@@ -1,0 +1,658 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: #fff;
+  color: #444;
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+}
+.top-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-color: #444;
+  z-index: 100;
+}
+.main-title {
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  color: #444;
+  margin: 30px 0 10px 0;
+  text-align: center;
+}
+.main-title .subtext {
+  margin-left: 3px;
+  color: #777;
+  font-size: 14px;
+}
+.main-title .text {
+  width: auto;
+  display: inline-table;
+}
+.main-title .busy {
+  background-image: url("assets/busy.gif");
+  height: 16px;
+  width: 16px;
+  display: inline-table;
+  position: relative;
+  top: -5px;
+  right: -20px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.main-title .busy.hidden {
+  opacity: 0;
+}
+.main-title.inleft {
+  text-align: left;
+  margin-left: 20px;
+}
+.main-title.inleft .text {
+  margin-left: 0px;
+}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.wrapper .top-right {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+.wrapper h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+.notice {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 40px;
+  height: auto;
+}
+.notice.error {
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px #f00 solid;
+}
+.login-div {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  box-sizing: border-box;
+  border-top: 6px #eee solid;
+  border-bottom: 6px #eee solid;
+  padding-bottom: 30px;
+}
+.login-div h3.title {
+  font-size: 36px;
+  margin: 30px 0 20px 0;
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+}
+.login-div input {
+  background: none;
+  border: none;
+  margin-top: 15px;
+  display: block;
+  text-align: left;
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+}
+.login-div input:focus {
+  outline: none;
+}
+.login-div input[type='text'],
+.login-div input[type='password'] {
+  padding: 8px 10px 6px 10px;
+  border-left: 6px #eee solid;
+  font-size: 26px;
+  color: #444;
+  transition: all 0.5s ease;
+}
+.login-div input[type='text']:focus,
+.login-div input[type='password']:focus {
+  outline: none;
+  border-left-color: #33b5e5;
+}
+.login-div input[type='text']:focus:-webkit-input-placeholder,
+.login-div input[type='password']:focus:-webkit-input-placeholder {
+  color: #666;
+}
+.login-div input[type='password']:-webkit-input-placeholder {
+  padding-left: 20px;
+}
+.img-holder {
+  background-color: #33b5e5;
+  width: 256px;
+  height: 256px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+.full-row {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.btn {
+  background: none;
+  border: none;
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 10px 20px 12px 20px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #555;
+}
+.btn:active {
+  background-color: #3a3a3a;
+  box-shadow: inset 0px 2px 6px 0px rgba(0,0,0,0.1);
+}
+.btn.disabled {
+  opacity: 0.7;
+  background-color: #666;
+}
+.btn.disabled:hover,
+.btn.disabled:active,
+.btn.disabled:focus {
+  background-color: #666;
+  outline: none;
+  box-shadow: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #555;
+  padding: 10px 20px 10px 10px;
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+  border-left: 6px #eee solid;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+select option {
+  padding: 6px 15px 8px 15px;
+  border: none;
+  box-shadow: none;
+}
+select:focus,
+select:active {
+  outline: none;
+  border-left-color: #33b5e5;
+}
+select ~ input#branchname {
+  display: inline-block;
+  margin-left: 30px;
+  border-left: 6px #eee solid;
+  padding: 10px;
+  font-size: 22px;
+  color: #555;
+}
+select ~ input#branchname:focus,
+select ~ input#branchname:active {
+  outline: none;
+  border-left-color: #33b5e5;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.left-pane,
+.center-pane,
+.right-pane {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  height: auto;
+  box-sizing: border-box;
+}
+.left-pane h4,
+.center-pane h4,
+.right-pane h4 {
+  font-size: 30px;
+  margin-top: 27px;
+  font-weight: normal;
+}
+.left-pane ul,
+.center-pane ul,
+.right-pane ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.left-pane ul li,
+.center-pane ul li,
+.right-pane ul li {
+  color: #333;
+  font-size: 16px;
+  padding: 8px 0px;
+  font-size: 20px;
+}
+.left-pane ul li a,
+.center-pane ul li a,
+.right-pane ul li a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+.left-pane ul li a:hover,
+.center-pane ul li a:hover,
+.right-pane ul li a:hover,
+.left-pane ul li a:visited,
+.center-pane ul li a:visited,
+.right-pane ul li a:visited,
+.left-pane ul li a:focus,
+.center-pane ul li a:focus,
+.right-pane ul li a:focus,
+.left-pane ul li a:active,
+.center-pane ul li a:active,
+.right-pane ul li a:active {
+  color: inherit;
+  text-decoration: none;
+}
+.left-pane ul li:hover,
+.center-pane ul li:hover,
+.right-pane ul li:hover {
+  color: #33b5e5;
+}
+.left-pane ul li:active,
+.center-pane ul li:active,
+.right-pane ul li:active {
+  color: #1faee2;
+}
+.left-pane {
+  left: 0;
+  width: 290px;
+}
+.center-pane {
+  left: 310px;
+  right: 470px;
+  bottom: initial;
+  height: auto;
+  border: 5px #555 solid;
+  border-radius: 0px 0px 8px 8px;
+  border-top: none;
+  padding: 0px 20px;
+}
+.right-pane {
+  right: 0;
+  width: 430px;
+}
+textarea {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  max-width: 900px;
+  width: 100%;
+  outline: none;
+  margin: 0 auto;
+  font-size: 20px;
+  box-shadow: none;
+  resize: none;
+  line-height: 1.6em;
+  display: block;
+  color: #bbb;
+  transition: color 0.3s ease-in-out;
+}
+textarea:hover,
+textarea:focus,
+textarea:active {
+  color: #444;
+}
+#editor {
+  height: 100%;
+  margin-top: 40px;
+}
+#editor .preview {
+  display: none;
+}
+.f-left {
+  display: block;
+  float: left;
+}
+.f-right {
+  display: block;
+  float: right;
+}
+.btn#newPost {
+  margin-top: 20px;
+}
+ul.block {
+  display: block;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.options.onMobile {
+  display: none;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  z-index: 100;
+}
+.top-line {
+  height: 60px;
+}
+.main-title {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #ddd;
+}
+.main-title .subtext {
+  display: none;
+}
+.main-title.inleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  color: #eee;
+}
+.main-title.inleft .subtext {
+  color: #bbb;
+}
+.login-div,
+.notice {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  border: none;
+}
+.login-div {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.notice {
+  margin-top: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+select ~ input#branchname {
+  margin-left: 0px;
+}
+.options.onMobile {
+  position: fixed;
+  top: 8px;
+  right: 20px;
+  display: block;
+}
+.options.onMobile button.btn {
+  padding: 7px 4px 8px 4px;
+  background: none;
+  border-bottom: 2px #666 solid;
+  border-radius: 0px;
+  margin-left: 10px;
+  color: #ddd;
+}
+.options.onMobile button.btn:hover {
+  color: #fff;
+}
+.options.onMobile button.btn:active {
+  color: #eee;
+}
+.options.onMobile button.btn.active {
+  border-bottom-color: #33b5e5;
+}
+.left-pane {
+  height: auto;
+  width: auto;
+  bottom: initial;
+}
+.left-pane .main-title {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  display: inline-block;
+  text-align: left;
+  width: 125px;
+  margin: -5px 10px 0 0;
+  padding: 13px 20px;
+  background-color: #252525;
+  box-shadow: inset -10px 0px 30px 0px rgba(0,0,0,0.2);
+}
+.center-pane {
+  border: none;
+  margin-top: 60px;
+  width: 96%;
+  position: absolute;
+  left: -110%;
+  margin-left: 20px;
+  margin-right: 0px;
+  box-sizing: border-box;
+  padding: 0;
+  transition: left 0.3s ease-in-out;
+}
+.center-pane .newpostholder #newPostTitle {
+  font-family: "Ubuntu Light";
+  font-size: 20px;
+  border: none;
+  background: none;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 100px;
+  left: 0px;
+  display: block;
+  top: 6px;
+  float: left;
+  z-index: 10;
+}
+.center-pane .newpostholder #newPostTitle:hover,
+.center-pane .newpostholder #newPostTitle:active,
+.center-pane .newpostholder #newPostTitle:focus {
+  outline: none;
+}
+.center-pane .newpostholder #newPostTitle:focus {
+  border-bottom-color: #33b5e5;
+}
+.center-pane .newpostholder #newPostBtn {
+  padding: 3px 12px 5px 12px;
+  font-size: 14px;
+  position: absolute;
+  right: 38px;
+  top: 6px;
+  z-index: 10;
+}
+ul.drafts-list {
+  position: relative;
+  top: 40px;
+  right: 4px;
+  left: 2px;
+  margin: 0;
+  padding-top: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-right: 6px;
+}
+.center-pane h4.f-left {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  background-color: #f0f0f0;
+  top: 33px;
+  height: 45px;
+  width: 110%;
+  left: -110%;
+  border-bottom: 1px #e0e0e0 solid;
+  text-indent: -9999px;
+  transition: left 0.3s ease;
+}
+.center-pane.active {
+  left: 0;
+  padding-right: 17px;
+  width: 100%;
+}
+.center-pane.active h4.f-left {
+  left: -10px;
+}
+.right-pane {
+  right: -100%;
+  width: 90%;
+  margin-left: 5%;
+  position: absolute;
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  transition: position 0.3s ease-in-out;
+}
+.right-pane.active {
+  z-index: 2000;
+  right: 0;
+  left: 0;
+  width: 96%;
+}
+.top-right.controls {
+  top: 80px;
+  right: 20px;
+  border: 1px #222 solid;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #373737;
+  opacity: 0.85;
+  border-radius: 2px;
+}
+.top-right.controls:after {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  color: #ddd;
+  content: '#';
+  font-family: "Ubuntu Light", Segoe UI Light, Helevetica Neue, sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+}
+.top-right.controls br {
+  display: none;
+}
+.top-right.controls .btn {
+  display: none;
+  background-color: #393939;
+  border-radius: 0;
+}
+.top-right.controls .btn:hover {
+  background-color: #444;
+}
+.top-right.controls .btn:active {
+  background-color: #353535;
+  box-shadow: inset 0px 2px 15px 0px rgba(0,0,0,0.2);
+}
+.top-right.controls:hover {
+  box-sizing: none;
+  background-color: none;
+  width: auto;
+  height: auto;
+  border: none;
+  opacity: 0.92;
+}
+.top-right.controls:hover:after {
+  display: none;
+}
+.top-right.controls:hover .btn {
+  display: block;
+  border-bottom: 1px #272727 solid;
+}
+.top-right.controls:hover .btn:first-child {
+  border-top: 1px #272727 solid;
+}
+h2.title {
+  color: #fff;
+  display: inline-block;
+  float: right;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 52%;
+  padding-top: 18px;
+  padding-right: 20px;
+  margin: 0;
+  text-align: right;
+}
+.preview {
+  font-size: 1.2em;
+  margin: 0 20px 0 13px;
+  padding-top: 10px;
+  color: #666;
+}
+.preview a {
+  color: #525252;
+}
+.preview a:hover {
+  color: #5c5c5c;
+}
+.preview a:active {
+  color: #2eb3e4;
+}
+.preview a:visited {
+  color: #1998c7;
+}
+.right-pane ul.published-list {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-right: 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-right: 4px;
+}
