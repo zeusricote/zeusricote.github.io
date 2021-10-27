@@ -1,13 +1,4 @@
----
-title: 'Que sabe Google de mi. ¿y de ti?'
-date: 2021-02-15T21:00:00.001-08:00
-draft: false
-url: /2021/02/que-sabe-google-de-mi-y-de-ti.html
-tags: 
-- guias
----
 
-Translator
 
 Prácticamente de su nacimiento, Google ha basado gran parte de su negocio en ofrecer todo gratis, cumpliendo el dicho de “Cuando algo es gratis, el producto somos nosotros”. Sin embargo, en los últimos años, parece que algunos de sus servicios **no son lo suficientemente rentables** para la compañía y ha decidido dejar de ofrecernos (Google Reader) o bien convertirlos en servicios de pago (Google Fotos).
 
