@@ -1,15 +1,12 @@
 ---
-title: 'que es el catfishing?'
-date: 2021-02-13T08:34:00.001-08:00
+title: que es el catfishing?
+date: {}
 draft: false
 url: /2021/02/que-es-el-catfishing.html
-tags: 
-- guias
+tags:
+  - guias
+published: true
 ---
-
-Translator
-
-Translator
 
 Suplantación de identidad, mentir sobre nuestra personalidad, engañar con mentiras constantes sobre uno mismo… En todo esto, las personas _catfish_ son auténticos expertos. Se dan a conocer como alguien detrás de la pantalla -por internet- y después resulta que no son quienes decían ser.
 
