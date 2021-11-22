@@ -7,8 +7,6 @@ tags:
 - guias
 ---
 
-Translator
-
 La caída accidental del móvil al inodoro, a una bañera o a un piscina es una experiencia tremendamente frustrante. La buena noticia es que no está todo perdido, aunque esto dependerá de cómo reaccionemos nada más recuperar el teléfono de una inmersión involuntaria. La mayoría de los móviles de gama alta de última generación cuentan con algún tipo de certificación que los hace más o menos resistentes al agua, pero un accidente de estas características puede arruinar el dispositivo (y todo su contenido), y lo que empeora la cosa, precipitar el fin de la garantía. En lo que respecta a esto último, los móviles cuentan con _testigos_ sensibles a la humedad que alertan, sin género de dudas, del contacto del dispositivo con el agua. Pero como hemos apuntado, este incidente puede tener un final feliz si se actúa de forma correcta.
 
 ### Lo que no debe hacerse
