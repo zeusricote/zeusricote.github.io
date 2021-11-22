@@ -1,11 +1,10 @@
 ---
-title: 'Qué es el Modo Dios de Windows 10 y cómo activarlo'
-date: 2021-02-15T23:00:00.001-08:00
+title: Qué es el Modo Dios de Windows 10 y cómo activarlo
+date: {}
 draft: false
 url: /2021/02/que-es-el-modo-dios-de-windows-10-y.html
+published: true
 ---
-
-Translator
 
 Una de las particularidades de **Windows** en general, es que **siempre nos ha ofrecido un gran número de opciones de personalización**, opciones que nos permiten ajustar prácticamente cual detalle, principalmente visual y en muchos casos funcional. Si nos adentramos dentro de las opciones de configuración de Windows, lo más probable es que acabemos deprimiéndonos.
 
