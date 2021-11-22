@@ -7,8 +7,6 @@ tags:
 - guias
 ---
 
-Translator
-
 Es probable que hayas detectado que tu ordenador arranque más lento de lo normal. Esto se da con el paso de los años, es normal, pero siempre podemos **realizar ajustes para arrancar tu PC más rápido. **
 
 En este post te mostraremos algunos **trucos para que tu PC se inicie más rápido**. Verás que no te llevará más de unos minutos y sin duda alguna, resultarán eficaces para acelerar el arranque de tu ordenador. Toma nota.
