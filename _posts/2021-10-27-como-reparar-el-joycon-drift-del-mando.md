@@ -1,13 +1,12 @@
 ---
-title: 'Como reparar el joycon drift del mando izquierdo.'
-date: 2021-04-03T05:10:00.002-07:00
+title: Como reparar el joycon drift del mando izquierdo.
+date: {}
 draft: false
 url: /2021/04/como-reparar-el-joycon-drift-del-mando.html
-tags: 
-- guias
+tags:
+  - guias
+published: true
 ---
-
-Translator
 
  Que conste que pongo el mando izquierdo ya que cada uno esta montado de manera diferente y todavia no he tenido uno derecho  dañado a mano, ire añdiendo guias de este tipo conforme me traigan o tenga yo cosas para arreglar. Bueno comienzo con la guia. Si teneis un joystick de reemplazo, en el paso de limpiar el contacto, simplemente reemplazad el joystick y continuad con la guia tal cual se indica. añgunos pasos no tienen imagenes porque no he necesitado desmontar las piezas indicadas( repito algunas fotos porque ahi se ven las piezas a desconectar).  
 
