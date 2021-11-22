@@ -1,11 +1,10 @@
 ---
 title: ' Microsoft defender: cuando un fallo se pasa 12 años latente en el antivirus'
-date: 2021-02-13T03:49:00.001-08:00
+date: {}
 draft: false
 url: /2021/02/microsoft-defender-cuando-un-fallo-se.html
+published: true
 ---
-
-Translator
 
 **Una fallo de seguridad ha estado presente en el antivirus de Windows** que viene preinstalado en los pc, Windows Defender, durante 12 años pasando de forma totalmente inadvertida hasta que el martes la propia Windows solucionó esta vulnerabilidad con un parche de seguridad.
 
