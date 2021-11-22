@@ -1,15 +1,12 @@
 ---
-title: 'El altavoz del iphone no funciona? Posibles causas y soluciones'
-date: 2021-04-14T01:53:00.001-07:00
+title: El altavoz del iphone no funciona? Posibles causas y soluciones
+date: {}
 draft: false
 url: /2021/04/el-altavoz-del-iphone-no-funciona.html
-tags: 
-- guias
+tags:
+  - guias
+published: true
 ---
-
-Translator
-
-Translator
 
  En respuesta a un chico que me pregunto porque no le funcionaba el alatavoz del movil( no me dijo el modelo, pero estos son arreglos estandar) he decidido crear una guia para solucionarlo, ya que parece ser un problema recurrente.
 
