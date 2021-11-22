@@ -7,8 +7,6 @@ tags:
 - guias
 ---
 
-Translator
-
 Con el lanzamiento de Windows 10 todo cambió y a diferencia de versiones anteriores, todo para bien. Windows 10 suponía un importante **cambio en la estética y funcionamiento** del sistema operativo de Microsoft para ordenadores, con un diseño heredado a parte iguales de Windows 7 y Windows 8.x.
 
 Para que Windows 10 rápidamente se convirtiera en el sistema operativo más utilizado superando a Windows 7 (si, Windows 8.x nunca se acercó a los números de esta versión), desde Microsoft permitieron **actualizar de forma totalmente gratuita desde Windows 7 y Widows 8.x** a Windows 10, sin tener que comprar una nueva licencia.
