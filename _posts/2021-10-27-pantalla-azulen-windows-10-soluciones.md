@@ -1,13 +1,12 @@
 ---
 title: 'Pantalla azulen windows 10: soluciones'
-date: 2021-02-15T10:00:00.021-08:00
+date: {}
 draft: false
 url: /2021/02/pantalla-azulen-windows-10-soluciones.html
-tags: 
-- guias
+tags:
+  - guias
+published: true
 ---
-
-Translator
 
 Con Windows 98, los pantallazos azules (de la muerte como añaden algunos) se convirtieron en algo habitual en todas versiones de Windows. Y cuando habitual, no me refiero a que sea un error que se muestre continuamente, sino a un **error crítico del sistema** que utiliza el color azul (también hay errores críticos que se muestran en color blanco) para informar del tipo de error.
 
