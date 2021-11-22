@@ -1,11 +1,11 @@
 ---
 title: 'Wikipedia decide acabar con los bulos de una vez por todas, asi quiere hacerlo'
-date: 2021-02-13T04:11:00.004-08:00
+date: {}
 draft: false
 url: /2021/02/wikipedia-decide-acabar-con-los-bulos.html
+published: true
 ---
 
-Translator
 
 **Wikipedia** ha publicado este martes un 'Código de conducta universal' con el objetivo de frenar el abuso, la desinformación y la manipulación en la mayor enciclopedia 'online'.
 
