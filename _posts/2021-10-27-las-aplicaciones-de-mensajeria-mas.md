@@ -6,7 +6,7 @@ url: /2021/02/las-aplicaciones-de-mensajeria-mas.html
 published: true
 ---
 
- Buenos dias, os traigo un post que seguramente resulte interesante con todo este caos con los terminos de whatsapp.Voy a analizar las aplicaciones de mensajeria en base al estudio que realizo la EFF(Electronic Frontier Fundation). Y como base usare la tabla del estudio, la cual no se limita a signal, whatsapp y telegram, como la mayoria de posts de este tipo. 
+ Buenos dias, os traigo un post que seguramente resulte interesante con todo este caos con los terminos de whatsapp.Voy a analizar las aplicaciones de mensajeria en base al estudio que realizo la EFF (Electronic Frontier Fundation). Y como base usare la tabla del estudio, la cual no se limita a signal, whatsapp y telegram, como la mayoria de posts de este tipo. 
 
 Y lo cierto es que nos encontramos que son pocas las que pasan el examen, que en esta ocasión se suspende si se tiene un sólo negativo. En concreto, la EFF analiza siete puntos clave de la seguridad de cada aplicación en esta lista que mantiene actualizada (con fecha del 3 de noviembre de 2015):
 
