@@ -7,14 +7,6 @@ tags:
 - guias
 ---
 
-Translator
-
-Translator
-
-Translator
-
-Translator
-
 Hace unas semanas escribi un articulo en el que explicaba como ver todo lo que google sabia sobre ti, el cual teneis aqui: [Que sabe google sobre mi, ¿y sobre ti?](https://www.cleartech.tk/2021/02/que-sabe-google-de-mi-y-de-ti.html) y hoy vengo a enseñaros el como eliminar esos mismos datos.
 
  Lo primero es, ¿porque almacena tantos datos? A parte de que estos datos les sirven como una fuente importante de dinero ya que Google basa gran parte de sus ingresos en anuncios a través de su propio buscador, así como en muchísimas páginas web donde también coloca anuncios personalizados para cada usuario. Esta personalización de los anuncios es lo que busca cuando nos monitoriza de esta manera, así puede saber qué nos gusta y qué últimas búsquedas hemos realizado por Internet, para ofrecer anuncios relacionados en cada web que visitamos. Básicamente, guarda estas preferencias para ganar dinero.
