@@ -7,8 +7,6 @@ tags:
 - guias
 ---
 
-Translator
-
 Hoy hablamos de una forma práctica de **bloquear** toda la **publicidad** indeseable de Internet con unos sencillos pasos. No requiere de extensiones que consuman memoria, programas externos etc… y bloquea publicidad no solo del navegador, sino de cualquier programa que mande peticiones a una de las URL de la lista que os explicamos a continuación.
 
 Para bloquear la publicidad desde el **archivo hosts** nos centraremos en modificar el archivo hosts de nuestro sistema operativo (todos los sistemas tienen uno).
