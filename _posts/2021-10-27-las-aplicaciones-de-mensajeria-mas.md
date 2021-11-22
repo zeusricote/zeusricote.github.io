@@ -1,15 +1,10 @@
 ---
 title: 'Las aplicaciones de mensajeria mas seguras, y las inseguras, según la EFF'
-date: 2021-02-12T01:20:00.001-08:00
+date: {}
 draft: false
 url: /2021/02/las-aplicaciones-de-mensajeria-mas.html
+published: true
 ---
-
-Translator
-
-Translator
-
-Translator
 
  Buenos dias, os traigo un post que seguramente resulte interesante con todo este caos con los terminos de whatsapp.Voy a analizar las aplicaciones de mensajeria en base al estudio que realizo la EFF(Electronic Frontier Fundation). Y como base usare la tabla del estudio, la cual no se limita a signal, whatsapp y telegram, como la mayoria de posts de este tipo. 
 
