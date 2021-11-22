@@ -1,5 +1,5 @@
 ---
-title: 'Pantalla azulen windows 10: soluciones'
+title: 'Pantalla azul en windows 10: soluciones'
 date: {}
 draft: false
 url: /2021/02/pantalla-azulen-windows-10-soluciones.html
