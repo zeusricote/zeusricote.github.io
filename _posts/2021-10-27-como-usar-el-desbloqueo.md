@@ -1,13 +1,12 @@
 ---
-title: 'Como usar el desbloqueo de apple con mascarrilla'
-date: 2021-02-15T08:07:00.006-08:00
+title: Como usar el desbloqueo de apple con mascarrilla
+date: {}
 draft: false
 url: /2021/02/como-usar-el-desbloqueo.html
-tags: 
-- guias
+tags:
+  - guias
+published: true
 ---
-
-Translator
 
 ¿Problemas para desbloquear tu **iPhone** mediante reconocimiento facial en tiempos de coronavirus? Te explicamos **cómo usar Face ID con mascarilla**.
 
