@@ -1,6 +1,6 @@
 ---
 title: Como usar el desbloqueo de apple con mascarrilla
-date: {}
+date: 2021-02-15T21:00:00.001-08:00
 draft: false
 url: /2021/02/como-usar-el-desbloqueo.html
 tags:
