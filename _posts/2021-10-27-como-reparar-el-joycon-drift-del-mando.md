@@ -1,6 +1,6 @@
 ---
 title: Como reparar el joycon drift del mando izquierdo.
-date: {}
+date: 2021-02-15T21:00:00.001-08:00
 draft: false
 url: /2021/04/como-reparar-el-joycon-drift-del-mando.html
 tags:
