@@ -1,6 +1,6 @@
 ---
 title: 'Pantalla azul en windows 10: soluciones'
-date: {}
+date: 2021-02-15T21:00:00.001-08:00
 draft: false
 url: /2021/02/pantalla-azulen-windows-10-soluciones.html
 tags:
