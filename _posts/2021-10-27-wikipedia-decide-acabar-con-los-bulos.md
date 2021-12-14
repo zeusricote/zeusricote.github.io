@@ -1,6 +1,6 @@
 ---
 title: 'Wikipedia decide acabar con los bulos de una vez por todas, asi quiere hacerlo'
-date: {}
+date: 2021-02-15T21:00:00.001-08:00
 draft: false
 url: /2021/02/wikipedia-decide-acabar-con-los-bulos.html
 published: true
