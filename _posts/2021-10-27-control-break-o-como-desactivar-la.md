@@ -2,7 +2,7 @@
 title: >-
   Control break. O como desactivar la localización remota de un dispositivo o el
   control parental usando una sd.
-date: {}
+date: 2021-02-15T21:00:00.001-08:00
 draft: false
 url: /2021/08/control-break-o-como-desactivar-la.html
 published: true
