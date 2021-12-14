@@ -1,6 +1,6 @@
 ---
 title: ' Microsoft defender: cuando un fallo se pasa 12 años latente en el antivirus'
-date: {}
+date: {2021-10-27}
 draft: false
 url: /2021/02/microsoft-defender-cuando-un-fallo-se.html
 published: true
