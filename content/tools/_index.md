@@ -1,12 +1,8 @@
 +++
 date = '2025-08-01T04:03:36+02:00'
-draft = true
+draft = false
 title = 'Tools'
 +++
-
----
-title: "My Creations"
----
 
 A curated set of original tools I develop for bug bounty and pentesting workflows.
 

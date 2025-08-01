@@ -1,12 +1,8 @@
 +++
 date = '2025-08-01T04:02:07+02:00'
-draft = true
+draft = false
 title = 'About'
 +++
-
----
-title: "About Zeus Ricote"
----
 
 I’m **Zeus Ricote**, an independent cybersecurity researcher and bug bounty hunter.
 

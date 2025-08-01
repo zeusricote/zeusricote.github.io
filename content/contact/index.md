@@ -2,11 +2,8 @@
 date = '2025-08-01T04:02:33+02:00'
 draft = false
 title = 'Contact'
+type = 'page'  # recommended to set explicitly
 +++
-
----
-title: "Contact"
----
 
 Feel free to reach out:
 

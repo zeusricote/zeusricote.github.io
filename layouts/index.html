@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ if $posts }}
+    {{ range $posts }}
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary }}</p>
+    {{ end }}
+  {{ else }}
+    <p>No posts found.</p>
+  {{ end }}
+{{ end }}

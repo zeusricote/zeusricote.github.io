@@ -1,0 +1,116 @@
+baseURL: "https://zeusricote.com/"
+title: "Zeus Ricote"
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Zeus Ricote"
+  description: "Pentesting tools, bug bounty insights, and hacking strategies by Zeus Ricote."
+  keywords: ["cybersecurity", "bug bounty", "pentesting", "hacking tools", "Zeus Ricote"]
+  author: "Zeus Ricote"
+  DateFormat: "02 Jan 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  mainSections: ["posts"]
+  homeInfoParams:
+    Title: "Welcome to Zeus Ricote’s Lab"
+    Content: "Bug bounty tools, field-tested recon scripts, exploit payloads, and pentesting strategies. No fluff — just real tactics that work."
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
+
+  label:
+    text: "Zeus Ricote"
+    icon: "apple-touch-icon.png"
+    iconHeight: 35
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/zeusricote"
+    - name: telegram
+      url: "https://t.me/your_username"
+    - name: patreon
+      url: "https://patreon.com/your_username"
+    - name: x
+      url: "https://x.com/your_username"
+
+  editPost:
+    URL: "https://github.com/zeusricote/your-repo-name/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /
+      weight: 1
+    - identifier: tools
+      name: Tools
+      url: /tools/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 4
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    noClasses: false
+
+imaging:
+  # enable Hugo image processing for resizing, format conversion, etc.
+  resampleFilter: Lanczos
