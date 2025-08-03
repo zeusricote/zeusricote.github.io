@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
+baseurl = "zeusricote.com"
+title = "Korai Labs"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
